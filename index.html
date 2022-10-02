@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HRForm</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="hr-form">
+    <div class="title">
+      <h2>
+        <div class="bold">Position: </div><span>Junior Frontend Developer</span>
+
+      </h2>
+    </div>
+    <div class="user">
+      <div class="img">
+        <img src="./img/lamia.jpg" alt="" />
+      </div>
+      <div class="text">
+        <p>
+        <div class="bold">Name: </div> Lamia Mammadli</p>
+        <p>
+        <div class="bold">Git: </div> https://github.com/Lamie2</p>
+        <p>
+        <div class="bold">Course Number:</div> 4</p>
+      </div>
+    </div>
+    <div class="form">
+      <div class="birth-date">
+        <label>
+          <h5>Birth date:</h5>
+
+        </label>
+        <input type="date" id="date">
+      </div>
+      <div class="level">
+        <h5>
+          English level:
+        </h5>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" value>
+          <label class="form-check-label" for="exampleRadios1">
+            Bad
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Middle
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+          <label class="form-check-label" for="exampleRadios3">
+            Good
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" value>
+          <label class="form-check-label" for="exampleRadios3">
+            Awesome
+          </label>
+        </div>
+      </div>
+      <div class="skill">
+        <h5>Key Skills:</h5>
+        <p>-HTML</p>
+        <p>-CSS/SCSS</p>
+        <p>-JavaScript</p>
+        <div class="input">
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Please put text here">
+          </div>
+          <a href="#" class="btn btn-outline-secondary" aria-current="page">Add to the list</a>
+        </div>
+      </div>
+      <div class="sector">
+        <h5>Lang Sector:</h5>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="salary">
+        <label class="col-sm-2 col-form-label ">
+          <h5>Salary</h5>
+        </label>
+        <div class="col-sm-6">
+          <input type="email" class="form-control" placeholder="Please put text here">
+        </div>
+      </div>
+      <div class="level">
+        <h5>Other skills: </h5>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="checkbox" id="exampleCheckbox1" value="option1" value>
+          <label class="form-check-label" for="exampleCheckbox1">
+            Skill 1
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="checkbox" id="exampleCheckbox2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Skill 2
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="checkbox" id="exampleCheckbox3" value="option3" checked>
+          <label class="form-check-label" for="exampleCheckbox3">
+            Skill 3
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <input class="form-check-input" type="checkbox" id="exampleCheckbox4" value="option3" value>
+          <label class="form-check-label" for="exampleCheckbox4">
+            Skill 4
+          </label>
+        </div>
+      </div>
+      <div class="table">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Date </th>
+              <th scope="col">Place</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <button type="button" class="btn btn-outline-dark">Save Profile</button>
+    </div>
+  </div>
+</body>
+
+</html>
